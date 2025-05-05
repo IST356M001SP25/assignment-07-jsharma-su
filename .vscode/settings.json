@@ -3,5 +3,9 @@
         "tests", "-s", "--import-mode=prepend"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [
+        "./code",
+        "./code"
+    ]
 }
